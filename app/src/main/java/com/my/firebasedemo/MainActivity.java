@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         
-        FirebaseDatabase.getInstance().getReference().child("FirebaseDemo").child("1").setValue("Salamy");
+//        FirebaseDatabase.getInstance().getReference().child("FirebaseDemo").child("1").setValue("Salamy");
 //        HashMap<String,Object> map = new HashMap<>();
 //        map.put("Khalid","Developer");
 //        map.put("Ali","Engineering");
