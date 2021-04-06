@@ -30,12 +30,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         
 //        FirebaseDatabase.getInstance().getReference().child("FirebaseDemo").child("1").setValue("Salamy");
-//        HashMap<String,Object> map = new HashMap<>();
-//        map.put("Khalid","Developer");
-//        map.put("Ali","Engineering");
-//
-//        FirebaseDatabase.getInstance().getReference().child("MultiData").updateChildren(map);
-//
+        HashMap<String,Object> map = new HashMap<>();
+        map.put("Khalid","Developer");
+        map.put("Ali","Engineering");
+
+        FirebaseDatabase.getInstance().getReference().child("MultiData").updateChildren(map);
+
 //        final Button btnAddName = findViewById(R.id.btn_add_name);
 //        final TextInputEditText editTextName =findViewById(R.id.edit_text_name);
 //        final ListView listView = findViewById(R.id.list_view);
