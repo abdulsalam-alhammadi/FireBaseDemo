@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FireBaseDemo</string>
+    <string name="remember_login">Remember Login</string>
+</resources>
